@@ -1,0 +1,64 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="css/blackjack.css">
+    <meta charset="utf-8" />
+    <title> Blackjack</title>
+    <link rel="icon" href="images/blackjack.png">
+</head>
+<body>
+    <div class="topnav">
+        <a class="active" href="blackjack.html">Blackjack</a>
+        <a href="memory.html">memory</a>
+        <a href="higher-lower.html">higher-lower</a>
+        <a href="#about">About</a>
+      </div>
+    <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h3 class="animate-charcter"> Blackjack</h3>
+          </div>
+        </div>
+      </div>
+
+    <div class="textupdates" id="textUpdates">
+        Press 'New Game' to begin!
+
+
+    </div> 
+
+    <div class="buttonbox" id="newgame">
+        <button alt="play" id="play">New Game</button>
+    </div>
+    <div class="buttonbox hidden" id="buttonBox">
+        <button alt="hit" id="hit">Hit</button>
+        <button alt="stay" id="stay">Stay</button>
+    </div>
+    <table>
+        <tr>
+            <th id="phand">             
+                Your Hand
+            </th>
+            <th id="dhand">
+                Dealer's Hand
+            </th>
+        </tr>
+        <tr>
+            <td id="pcards">No cards dealt yet</td>
+            <td id="dcards">No cards dealt yet</td>
+
+        </tr> 
+    </table>
+    <div id="tracker" class="buttonbox">
+        <p>Your record : Wins: 0 Draws: 0 Losses: 0</p>
+    </div>
+    <div class="buttonbox">
+        <p><span class="bold" ></span></p>       
+        <span id="choice" class="bold redcard"></span>
+    </div>
+
+
+
+<script src="javascript/blackjack.js"></script>
+</body>
+
+</html>
